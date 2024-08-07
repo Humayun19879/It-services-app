@@ -1,0 +1,64 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 50px;
+    font-size: larger;
+    
+    color: white;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.nav-main{
+    display: flex;
+    width: 50vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-main .mid{
+    width: 30vw;
+    padding-top: 15px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mid ul li:hover{
+  cursor: pointer;
+  border-bottom: 3px solid red;
+  color: red;
+}
+
+
+
+.nav .right img{
+    width: 5vw;
+    height: 6vh;
+}
+ .right ul{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right ul li:hover{
+    cursor: pointer;
+    border-bottom: 3px solid red;
+    
+
+}
+.active{
+    color: red;
+    border-bottom:3px solid red ;
+}
+.left img{
+    width: 8vw;
+    height: 9vh;
+   
+}
